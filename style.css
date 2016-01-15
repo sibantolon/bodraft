@@ -1,0 +1,112 @@
+
+
+.input-symbol
+{
+    position: relative;
+}
+
+.input-symbol span
+{
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 50%;
+    pointer-events: none;
+    margin-left: 0.2em;
+}
+
+.input-symbol input
+{
+    text-indent: 1em;
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0px;
+}
+
+.container
+{
+    height: 100%;
+}
+
+.sports
+{
+}
+
+.leftColumn
+{
+    text-align: center;
+    display: table;
+}
+
+.linkButton
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footerStyle
+{
+    height: 60px;
+    background-color: #777;
+    text-align: center;
+}
+
+.footerStyle span
+{
+    margin-top: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.headerStyle
+{
+    height: 75px;
+    background-color: #2ab885;
+    border-bottom: 1px solid #888;
+}
+
+.mainStyle
+{
+    background-color: rgb(249, 249 ,249);
+    padding: 40px 0px;
+    background-image: url('assets/img/patter.jpg');
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.logo
+{
+    margin-top: 3px;
+    float: left;
+}
+
+.facebookContact
+{
+    float: right;
+    margin-top: 16px;
+}
+
+.form-control
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #777;
+}
+
